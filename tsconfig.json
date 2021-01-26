@@ -26,5 +26,5 @@
     "target": "es5",
     "jsx": "react"
   },
-  "include": ["src"]
+  "include": ["src","twin.d.ts"]
 }
