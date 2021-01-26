@@ -133,5 +133,11 @@
       "optional": true
     }
   },
-  "dependencies": {}
+  "dependencies": {},
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion"
+    }
+  }
+  
 }

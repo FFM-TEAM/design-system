@@ -1,11 +1,10 @@
-
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
-        gray:{
+        gray: {
           100: '#E5E5E5',
           200: '#D0D0D0',
           300: '#C3C0C0',
@@ -26,8 +25,8 @@ module.exports = {
           700: '#E98930',
           800: '#DD7411',
           900: '#DD7411',
-        }
-      }
+        },
+      },
     },
   },
   variants: {
