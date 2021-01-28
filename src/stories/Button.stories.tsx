@@ -1,17 +1,13 @@
 import { Meta, Story } from '@storybook/react/types-6-0'
 import React from 'react'
 
-import Button from '../components/StyledButton'
+import { Button } from '../components/Button'
 
 export default {
-  title: 'Components/StyledButton',
+  title: 'Components/Button',
   component: Button,
 } as Meta
 
-const Template: Story = (args) => (
-  <Button variant="outlined" size="lg" {...args}>
-    asdsd
-  </Button>
-)
+const Template: Story = (args) => <Button {...args}>환급액 조회하기</Button>
 
-export const LoggedIn = Template.bind({})
+export const BasicButton = Template.bind({})
