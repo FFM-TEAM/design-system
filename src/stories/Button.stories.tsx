@@ -8,6 +8,6 @@ export default {
   component: Button,
 } as Meta
 
-const Template: Story = (args) => <Button {...args}>환급액 조회하기</Button>
+const Template: Story = (args) => <Button {...args}>버튼</Button>
 
 export const BasicButton = Template.bind({})
