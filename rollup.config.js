@@ -1,6 +1,8 @@
 import babel from '@rollup/plugin-babel'
 import commonjs from '@rollup/plugin-commonjs'
 import resolve from '@rollup/plugin-node-resolve'
+import url from '@rollup/plugin-url'
+import svgr from '@svgr/rollup'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import sourceMaps from 'rollup-plugin-sourcemaps'
 import { terser } from 'rollup-plugin-terser'
@@ -38,5 +40,7 @@ export default {
     }),
     terser(),
     sourceMaps(),
+    url(),
+    svgr(),
   ],
 }

@@ -4,6 +4,8 @@
     "@babel/proposal-class-properties",
     "@babel/proposal-nullish-coalescing-operator",
     "@babel/proposal-optional-chaining",
-    "macros" // babel-plugin-macros
+    "macros", // babel-plugin-macros
+    "@emotion",
+    "babel-plugin-inline-react-svg"
   ]
 }
