@@ -1,6 +1,6 @@
 {
   "name": "@songc/design-system",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "s-ong-c <somony9292@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
@@ -81,6 +81,7 @@
     "@storybook/addon-essentials": "^6.1.15",
     "@storybook/addon-links": "^6.1.15",
     "@storybook/react": "^6.1.15",
+    "@svgr/webpack": "^5.5.0",
     "@testing-library/react-hooks": "^3.7.0",
     "@types/react": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.11.0",
@@ -88,6 +89,7 @@
     "all-contributors-cli": "^6.19.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
+    "babel-plugin-inline-react-svg": "^1.1.2",
     "concurrently": "^5.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "date-fns": "^2.16.1",
