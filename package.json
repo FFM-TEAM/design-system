@@ -11,7 +11,9 @@
   },
   "description": "components for Inter-section",
   "keywords": [
-    "storybook"
+    "storybook",
+    "design-system",
+    "inter-section"
   ],
   "scripts": {
     "prebuild": "rimraf dist esm",
