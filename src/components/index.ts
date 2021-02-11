@@ -1,4 +1,3 @@
-export * from './Button'
-export * from './Icon'
-export * from './StyledButton'
-export * from './Typo'
+export { default as Button } from './Button'
+export { default as Icon } from './Icon'
+export { default as Typo } from './Typo'

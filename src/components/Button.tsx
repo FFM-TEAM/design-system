@@ -37,7 +37,7 @@ export const ButtonStyle = (props: ButtonProps) => css`
 `
 
 /** Button component. */
-export function Button(props: ButtonProps) {
+function Button(props: ButtonProps) {
   return (
     <>
       <button
@@ -48,3 +48,4 @@ export function Button(props: ButtonProps) {
     </>
   )
 }
+export default Button
