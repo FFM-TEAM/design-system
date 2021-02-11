@@ -5,3 +5,7 @@ export interface IComponentProps {
   margin?: [number, number?, number?, number?]
   padding?: [number, number?, number?, number?]
 }
+export interface ITypoProps {
+  style?: React.CSSProperties
+  children: React.ReactNode
+}

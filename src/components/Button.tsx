@@ -39,12 +39,12 @@ export const ButtonStyle = (props: ButtonProps) => css`
 /** Button component. */
 export function Button(props: ButtonProps) {
   return (
-    <button
-      css={ButtonStyle(props)}
-      className={props.className}
-      onClick={props.onClick}
-    >
-      {props.children}
-    </button>
+    <>
+      <button
+        css={ButtonStyle(props)}
+        className={props.className}
+        onClick={props.onClick}
+      ></button>
+    </>
   )
 }
