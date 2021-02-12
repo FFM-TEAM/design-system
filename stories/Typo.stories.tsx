@@ -1,7 +1,7 @@
 import { Meta, Story } from '@storybook/react/types-6-0'
 import React from 'react'
 
-import Typo, { TypoProps } from '../components/Typo/Typo'
+import Typo, { TypoProps } from '../src/components/Typo/Typo'
 
 export default {
   title: 'Components/Typography',

@@ -1,13 +1,13 @@
 import { Meta, Story } from '@storybook/react/types-6-0'
 import React from 'react'
 
-import Text from '../components/Test'
+import Icon from '../src/components/Icon'
 
 export default {
-  title: 'Path/to/Text',
-  component: Text,
+  title: 'Components/Icon',
+  component: Icon,
 } as Meta
 
-const Template: Story = () => <Text />
+const Template: Story = () => <Icon name="star" />
 
 export const LoggedIn = Template.bind({})
