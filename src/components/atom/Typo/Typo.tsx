@@ -1,9 +1,10 @@
 import React from 'react'
 import tw, { styled } from 'twin.macro'
 
-import { ITypoProps } from '../../models'
+import { ITypoProps } from '../../../models'
 
 export type TypoProps = {
+  /** TEXT TYPE */
   text: TextType
 } & ITypoProps
 
@@ -28,7 +29,7 @@ type TextType =
   | 'L4'
 
 /** 기본 속성 */
-const baseStyle = tw`font-normal text-gray-100`
+const baseStyle = tw`font-normal text-gray-900`
 /** text 타입에 따른 */
 const typeStyle = {
   /** Heading */
