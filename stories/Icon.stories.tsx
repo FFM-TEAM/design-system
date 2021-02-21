@@ -2,7 +2,7 @@ import { Meta, Story } from '@storybook/react/types-6-0'
 import React from 'react'
 
 import Icon from '../src/components/atom/Icon'
-import { TypoProps } from '../src/components/Typo/Typo'
+import { TypoProps } from '../src/components/atom/Typo/Typo'
 
 export default {
   title: 'Components/Icon',
@@ -11,4 +11,4 @@ export default {
 
 const Template: Story<TypoProps> = () => <Icon name="star" />
 
-export const LoggedIn = Template.bind({})
+export const Icons = Template.bind({})
