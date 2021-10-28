@@ -20,16 +20,12 @@
 		],
     ["@semantic-release/release-notes-generator", {
       "preset": "conventionalcommits",
-      "types": [
-        {"type": "feat", "section": "Features"},
-        {"type": "fix", "section": "Bug Fixes"},
-        {"type": "chore", "hidden": true},
-        {"type": "docs", "hidden": true},
-        {"type": "style", "hidden": true},
-        {"type": "refactor", "section": "Refactor"},
-        {"type": "perf", "hidden": true},
-        {"type": "test", "hidden": true}
-      ]
+      "parserOpts": {
+        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+      },
+      "writerOpts": {
+        "commitsSort": ["subject", "scope"]
+      }
     }],
     "@semantic-release/npm",
     [
