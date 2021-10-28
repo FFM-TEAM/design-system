@@ -36,8 +36,7 @@
           {"type": "refactor", "section": "Refactor"},
           {"type": "perf", "hidden": true},
           {"type": "test", "hidden": true}
-      ]
-      
+        ]
       }
     }],
     "@semantic-release/npm",
