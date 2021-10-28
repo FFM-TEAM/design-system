@@ -14,7 +14,6 @@ export const gray = {
   '6': '#848484',
   '7': '#676767',
   '8': '#4D4D4D',
-  '9': '#2F2E2E',
 }
 export const black = '#080808'
 export const typo = {
