@@ -1,6 +1,6 @@
 {
   "name": "@songc/design-system",
-  "version": "1.8.8",
+  "version": "1.9.0",
   "author": "s-ong-c <somony9292@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
