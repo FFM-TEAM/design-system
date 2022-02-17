@@ -1,8 +1,7 @@
 {
   "branches": [
     {"name": "main"},
-   { "name": "develop", "channel": "beta", "prerelease": true },
-    {"name": "beta", "prerelease": true}
+    {"name": "develop", "channel": "beta", "prerelease": "beta"}
   ],
   "repositoryUrl": "https://github.com/FFM-TEAM/design-system",
   "debug": "true",
