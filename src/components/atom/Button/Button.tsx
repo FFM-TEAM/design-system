@@ -41,7 +41,7 @@ const StyledButton = styled.button<buttonProps>(getStyle)
 
 export default function Button({
   variant = 'primary',
-  size = 'md',
+  size = 'lg',
   isIcon = false,
   children,
   disabled = false,
